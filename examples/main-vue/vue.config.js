@@ -11,8 +11,7 @@ module.exports = {
     },
     open: process.env.NODE_ENV === "development",
     port: "8000",
+    host: "local.sankuai.com",
   },
-  transpileDependencies: [
-    "sockjs-client",
-  ],
+  transpileDependencies: ["sockjs-client"],
 };

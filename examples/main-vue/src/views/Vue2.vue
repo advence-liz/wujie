@@ -4,12 +4,14 @@
 </template>
 
 <script>
-import hostMap from "../hostMap";
+// import hostMap from "../hostMap";
 
 export default {
   data() {
     return {
-      vue2Url: hostMap("//localhost:7200/"),
+      // //cube.hfe.test.sankuai.com/
+      // //local.sankuai.com:9001/
+      vue2Url: '//cube.hfe.test.sankuai.com/#/activity/mine',
     };
   },
   methods: {

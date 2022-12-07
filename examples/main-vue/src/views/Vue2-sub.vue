@@ -9,7 +9,13 @@ import hostMap from "../hostMap";
 export default {
   computed: {
     vue2Url() {
-      return hostMap("//localhost:7200/") + `#/${this.$route.params.path}`;
+      // return hostMap("//localhost:7200/") + `#/${this.$route.params.path}`;
+      
+      const uri = hostMap("//cube.hfe.test.sankuai.com/") + `#/activity/team`
+      console.log('uri',uri)
+      return uri
+
+      // return hostMap("//cube.hfe.test.sankuai.com/") + `#/${this.$route.params.path}`;
     },
   },
   methods: {
