@@ -13,9 +13,8 @@
       </router-link>
       <div class="sub-menu" v-show="vue2Flag">
         <router-link to="/vue2-sub/home">home</router-link>
-        <router-link to="/vue2-sub/activity/mine">activity</router-link>
-        <router-link to="/vue2-sub/template/all">template</router-link>
-        <router-link to="/vue2-sub/admin/component/list/all">admin</router-link>
+        <router-link to="/vue2-sub/activity">activity</router-link>
+      
       </div>
       <router-link to="/all">all</router-link>
       <a-button

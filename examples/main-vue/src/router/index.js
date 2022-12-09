@@ -49,10 +49,25 @@ const routes = [
     component: Vue2,
   },
   {
-    path: "/vue2-sub/:path",
-    name: "vue2-sub",
+    path: "/vue2-sub/home",
+    name: "vue2-sub-home",
     component: Vue2Sub,
   },
+  {
+    path: "/vue2-sub/activity",
+    name: "vue2-sub-activity",
+    component: Vue2Sub,
+  },
+  // {
+  //   path: "/vue2-sub/template",
+  //   name: "vue2-sub",
+  //   component: Vue2Sub,
+  // },
+  // {
+  //   path: "/vue2-sub/admin",
+  //   name: "vue2-sub",
+  //   component: Vue2Sub,
+  // },
   {
     path: "/vite",
     name: "vite",
